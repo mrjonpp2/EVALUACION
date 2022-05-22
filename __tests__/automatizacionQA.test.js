@@ -21,7 +21,7 @@ describe('Describe test',() => {
         await page.waitForTimeout(3000)
 
         await page.screenshot({
-            path: './capturaPantallaClick.png',
+            path: './CapturasQA/capturaPantallaClick.png',
             fullPage: true
         })
 
@@ -51,7 +51,7 @@ describe('Describe test',() => {
         console.log('button name: ', buttonName)
 
         await page.screenshot({
-            path: './capturaPantallaTextInput.png',
+            path: './CapturasQA/capturaPantallaTextInput.png',
             fullPage: true
         })
 
